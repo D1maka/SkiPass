@@ -1,3 +1,5 @@
+import cards.SkiPassCard;
+
 public class CardLiftsLeftDecorator implements IChecker {
 	private IChecker parent;
 
@@ -7,14 +9,8 @@ public class CardLiftsLeftDecorator implements IChecker {
 
 	@Override
 	public boolean isCardValid(SkiPassCard card) {
-		if (parent.isCardValid(card)) {
-			if (card.getLiftsLeft() == 0) {
-				return false;
-			} else {
-				return true;
-			}
-		} else {
+		
 			return false;
-		}
+	
 	}
 }
