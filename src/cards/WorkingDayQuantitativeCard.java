@@ -1,11 +1,14 @@
 package cards;
 
 import enums.CardType;
+import enums.LiftNumber;
 
 public class WorkingDayQuantitativeCard extends SkiPassCard {
 
-	public WorkingDayQuantitativeCard(CardType type) {
+	private int liftsLeft;
+	
+	public WorkingDayQuantitativeCard(LiftNumber liftNumber) {
 		super(CardType.WORKINGDAY);
+		liftsLeft = liftNumber.getLiftCount();
 	}
-
 }
