@@ -2,9 +2,9 @@ package cards;
 
 import enums.CardType;
 
-public class DayoffDurationCard extends SkiPassCard {
+public class DurationCard extends SkiPassCard {
 
-	public DayoffDurationCard() {
+	public DurationCard() {
 		super(CardType.DAYOFF);
 	}
 
