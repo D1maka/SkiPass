@@ -1,5 +1,6 @@
-package list;
+package test.com.epam.skipass.list;
 import static org.junit.Assert.*;
+import main.com.epam.skipass.list.MyLinkedList;
 
 import org.junit.Test;
 

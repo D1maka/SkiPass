@@ -1,8 +1,9 @@
-package list;
+package main.com.epam.skipass.list;
 
-import cards.SkiPassCard;
 
 import java.util.Date;
+
+import main.com.epam.skipass.cards.SkiPassCard;
 
 public class HistoryEntry {
     private Date entryDate;

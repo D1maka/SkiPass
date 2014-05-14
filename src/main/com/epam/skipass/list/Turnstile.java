@@ -1,6 +1,6 @@
-package list;
+package main.com.epam.skipass.list;
 
-import cards.SkiPassCard;
+import main.com.epam.skipass.cards.SkiPassCard;
 
 public interface Turnstile {
     public CheckResult tryPass(SkiPassCard passCard);

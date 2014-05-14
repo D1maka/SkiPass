@@ -1,4 +1,4 @@
-package list;
+package main.com.epam.skipass.list;
 import java.util.Iterator;
 
 public class MyLinkedList<T> implements Iterable<T> {
@@ -90,7 +90,7 @@ public class MyLinkedList<T> implements Iterable<T> {
 
 			@Override
 			public void remove() {
-
+				
 			}
 
 		};

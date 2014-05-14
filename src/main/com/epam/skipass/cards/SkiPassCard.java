@@ -1,5 +1,6 @@
-package cards;
-import enums.CardType;
+package main.com.epam.skipass.cards;
+
+import main.com.epam.skipass.enums.CardType;
 
 public abstract class SkiPassCard {
 	public static long nextId = 1;
@@ -34,4 +35,11 @@ public abstract class SkiPassCard {
 		this.blocked = blocked;
 	}
 
+    protected CardCheckResult check() {
+        if (isBlocked()) {
+            return CardCheckResult.BLOCKED;
+        } else {
+            return CardCheckResult.OK;
+        }
+    }
 }

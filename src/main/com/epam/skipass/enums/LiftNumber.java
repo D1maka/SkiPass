@@ -1,4 +1,4 @@
-package enums;
+package main.com.epam.skipass.enums;
 
 public enum LiftNumber {
 	LIFTS_10(10), LIFTS_20(20), LIFTS_50(50), LIFTS_100(100);
